@@ -1,0 +1,3027 @@
+Gang 
+Knife
+Licuadora
+.172
+.204
+.22
+.22 Winchester Magnum
+.223
+.224
+.243
+.257
+.264
+.277
+.284
+.308
+.312
+.32
+.32 S&W
+.323
+.338
+.357
+.358
+.366
+.375
+.38
+.38 Smith & Wesson
+.380
+.380 ALFA
+.40
+.408
+.430
+.44
+.45
+.458
+.468
+.700
+1873 Buntline Target	
+2 Stage
+2B-P
+4 pounder 
+80.002
+9
+950 Jetfire
+950B Jetfire
+950BS Jetfire
+9A-91
+9mm
+A. Uberti, Srl.
+AA-12
+AAA
+AAC Honey Badger
+AAI SBR	
+AAI XM70
+AB-3
+AB-5.45
+AB-7.62	
+ACP
+ACS Hezi SM-1	
+ADS amphibious rifle
+AEK
+AEK-97
+AG-043
+AGM-1	
+AIA
+AK
+AK 22
+AK 5CF
+AK-
+AK-100 series	
+AK-101
+AK-102
+AK-103
+AK-107
+AK-12
+AK-200
+AK-47	
+AK-63
+AK-74
+AK-74M
+AK-9
+AKM
+AKM-63
+AKMS	
+AKS
+AKS-
+AKS-47
+AKU-12	
+AL-7
+ALFA Combat
+ALFA Defender
+ALFA Steel
+ALFA-PROJ
+AMD 65
+AMD-65
+AMP-69
+AMR
+AMT Accelerator
+AMT AutoMag	
+AMT Baby AutoMag
+AMT Backup
+AMT Commando
+AMT Government
+AMT Hardballer	
+AMT Javelina
+AMT Lightning 25/22
+AMT Longslide	
+AMT Magnum Hunter
+AMT On-Duty
+AMT Skipper
+AN-94
+AO-222
+AO-27 rifle
+AO-31
+AO-35
+AO-38
+AO-40
+AO-44
+AO-46
+AO-62
+AO-63
+AO-64 
+AO-65
+AP-9
+APS	
+APS Underwater 
+APS underwater rifle
+APS-95
+APX 1895
+AR
+AR (ar-15)
+AR-15
+AR70/78
+AR70/84
+ARES FMG
+ARES LMG-1
+ART-556
+ARWEN 
+AS Val
+AS70/90
+ASAI ONE-PRO 
+ASEL
+ASM-DT amphibious rifle
+ASP Pistol
+ASVK
+AT84-S
+AUG	
+AVB-7.62
+AVS-36
+AVT-40	
+AWC Amphibian II
+AWC Centurion
+AWC G2
+AWC G2A
+AWC G2FA
+AWC Systems Technology
+AWC Ultra II
+Accelerator
+Accuracy
+Accuracy International
+Accurize
+Action
+Action Bar
+Action Bar Lock
+Actuator
+Adaptive Combat Rifle
+Adjustable Sight
+Adjustable Trigger
+Adler 
+Advanced Armament Corporation
+Aeroknox
+Ag m/42
+Ag m/42B
+Agram
+Aguantadero
+Aim
+Aiming Point
+Air Gauge
+Air Gun
+Air Resistance
+Air Space
+Air Spiral
+Ak 5
+Ak 5B
+Ak 5C
+Ak 5D
+Akdal
+Akdal Arms
+Akhgar machine gun 
+Al-Kadesih
+Albini-Braendlin
+Alcaucil
+Alejandro Sniper Rifle
+Alex Tactical 
+Alex-338
+Alguita
+Alpha GPI
+Altitude Effect
+American Arms International
+American Arms PK22
+American SAR 180/275	
+American-180
+Ammo
+Ammunition
+Ammunition Service
+Amogh carbine
+Angle Of Departure
+Angle Of Elevation
+Annihilator
+Annulus
+Anson Fastening Fore-End
+Anthis
+Antiaircraft Gun
+Antiballistic Missile
+Antimony
+Antitank Weapon
+Anvil
+Apache Revolver
+Aperture Sight
+Arcadia Machine and Tool
+Ares AAR
+Ares AAR/C
+Ares Defense
+Ares Incorporated
+Ares Olin AIWS
+Ares Shrike
+Ares Shrike 03A
+Ariete
+Arisaka
+Arisaka Type 
+Arm
+ArmaLite
+ArmaLite AR-15
+Armaguerra 
+Armaguerra Cremona
+Armalite Rifle
+Armalon 
+Armi Jager
+Arminius 
+Armitage Arms
+Armor Piercing
+Arms
+Arms Tech 
+Arms Tech Limited
+Armscor
+Armsel 
+Armtech
+Arquebus
+Arsenal AD
+Arsenal AR
+Arsenal LMG
+Arsenal MG
+Arsenal P-M02
+Arsenal Shipka
+Artillery
+Ascaso Pistol
+Aserma ADP Mk II
+Ashani
+Assault
+Assault Rifle
+Astra	
+Austen Mk 
+Austen Submachine Gun
+Austeyr
+Australian Automatic Arms 
+Australian International Arms 
+Auto
+Auto-Loader
+Auto-Loading
+Auto-Ordnance
+Automatic
+Automatic Action
+Automatic Ejector
+Automatic Fire
+Auxiliary Cartridge
+Auxiliary Chamber
+Ave
+Average Pressure
+Axis Pin
+Axis of Bore
+BB
+BB Cap
+BCM Europearms 
+BR18
+BRS-99	
+BS-1
+BSA 
+BSA 28P
+BSA Welgun
+BSP
+BSW 
+BTS-203
+BUL
+Back Strap
+Backstop
+Backthrust
+Baikal
+Bajouzutsu revolver
+Baker Bore
+Baksan PDW	
+Ball Ammunition
+Ball Powder
+Ball Screw
+Ball Seat
+Ball Sizing Plug
+Ballard Action
+Balled Shot
+BallesterMolina
+Ballistic Coefficient
+Ballistic Curve
+Ballistic Missiles
+Ballistic Table
+Ballistics
+Band
+Bandera
+Bang M1922
+Banger
+Bar Sight
+Barleycorn Sight
+Barredoras
+Barrel
+Barrel Broaching
+Barrel Erosion
+Barrel Insert
+Barrel Jacket
+Barrel Life
+Barrel Liner
+Barrel Lug
+Barrel Obstruction
+Barrel Pressure
+Barrel Reflector
+Barrel Relining
+Barrel Shank
+Barrel Sleeve
+Barrel Sleeving
+Barrel Step
+Barrel Swaging
+Barrel Thread
+Barrel Time
+Barrel Vent
+Barrel Vibration
+Barrel Wear
+Barrel Weight
+Barrel Whip
+Barrel-Cylinder Gap
+Barreled Action
+Barrett 
+Barrett REC7
+Base Pin
+Base Wad
+Bataan
+Bataan Super
+Batidor
+Battering Ram
+Battery
+Battery Cup
+Bauer
+Bayonet
+Bayonet Lug
+Bazooka
+Bead Sight
+Bearing Surface
+BeaumontAdams 
+Beavertail Fore-End
+Beavertail Forearm
+Bedding
+Bedding Control
+Bedding Screw
+Beholla 
+Belted Cartridge
+Belted Case
+Belted Magnum
+Benchrest
+Bendix 
+Benelli
+Bent
+Berdan 
+Berdan Primer
+Beretta
+Beretta AR70/90
+Beretta ARX160
+Beretta Rx4 Storm
+Bergmann 
+Bernardelli
+Bersa
+Berthier 
+Beryl 
+Bifurcated Lumps
+Big Bertha
+Big Bore
+Billiard Ball Effect
+Bingham 
+Bingham Arms
+Bird Shot
+Birdshot
+Birds Head Grip
+Biscuit
+Biwarip machine carbine
+Black Oxide
+Black Powder
+Blackpowder
+Blade Sight
+Blank
+Blanked Primer
+Blaser
+Blind Box Magazine
+Block Face
+Blow-By
+Blow-Forward
+Blowback
+Blowgun
+Blown Pattern
+Blown Primer
+Blue Steel
+Blueing
+Bluing
+Bluing Tank
+Blunderbuss
+Boat-Tail Bullet
+Body
+Bofors
+Bofors Carl Gustaf
+Bola
+Bolas
+Boleta
+Bolster Face
+Bolt
+Bolt Action
+Bolt Face
+Bolt Lug
+Bolt Notch
+Bolt Plug
+Bolt Raceaway
+Bolt Release
+Bolt Sleeve
+Bolt Stop
+Bolt Throw
+Bolt Thrust
+Boomerang
+Boot
+Bor	
+Border Patrol Police
+Bore
+Bore Axis
+Bore Brush
+Bore Casting
+Bore Constriction
+Bore Slugging
+Borescope
+Borz Submachine Gun
+Bottleneck Cartridge
+Bow And Arrow
+Box Lock Action
+Box Magazine
+Boxer Primer
+Boys Anti-Tank
+Br?gger & Thomet
+Bracelet
+Bread
+Break-Open Action
+Breda
+Breech
+Breech Face
+Breech Plug
+Breech Pressure
+Breechblock
+Breeching Plug
+Breeching Space
+Bren 
+Bren Light 
+Bren Machine Gun
+Bren Ten
+Brenneke Slug
+Bridge
+Bridge Rib
+Bridging Powder
+Brisance
+Britarms 
+Broach Rifling
+Brown
+Brown Bess
+Browning
+Browning Automatic Rifle
+Brugger
+Brunswick
+Brush Load
+Buckhorn Sight
+Buckshot
+Buffer
+Bulge Chamber
+Bulged Barrel
+Bull
+Bull Barrel
+Bull Gun
+Bull Pip
+Bullet
+Bullet Imprinting
+Bullet Jump
+Bullet Mold
+Bullet Popping
+Bullet Sizing
+Bullet Slippage
+Bullet-Push
+Bullseye
+Bundeswehr
+Burner
+Burning Rate
+Burning Speed
+Burnside
+Bush Load
+Bushman
+Bushmaster
+Butt
+Butt Plate
+Butt Stock
+Butterknife Bolt Handle
+Button Rifling
+C1
+C10
+C15
+C2
+C3
+C3A1
+C7
+C7 rifle
+C8
+C8A3
+C9
+CAR-223	
+CASMG
+CBJ-MS
+CEAM Mod?le 1950
+CETME 
+CETME Model L
+CEV
+CGA5C2
+CGA5P
+CIS 50MG
+COP 357
+CPW
+CSWS
+CT-556
+CTR-02
+CZ
+CZ 2000
+CZ 805 BREN
+CZ 99	
+CZW
+Cabela's
+Cachucha
+Caliber
+Calico
+Calico M960
+Caliver
+Calzada
+Cam Lock
+Camion
+Campana
+Campo Giro
+Cane
+Canister Powder
+Cannelure
+Cannon
+Cantantes
+Canting
+Cap
+Cap And Ball
+Cap Flash
+Capped Bullet
+Capper
+Carbine
+Carbon 15
+Carcano 
+Carcano Balilla
+Card Wad
+Carl Gustafs
+Carl Gustav 
+Carrier
+Carrier Dog
+Carrying Strap
+Cartridge
+Cartridge Brass
+Cartridge Case Sizing
+Cartridge Clip
+Cartridge Cook-Off
+Cartridge Cutoff
+Case
+Case Extractor Groove
+Case Fire-Forming
+Case Gauge
+Case Head Expansion
+Case Head Separation
+Case Life
+Case Neck
+Case Rupture
+Case Separation
+Case Trimmer
+Casemouth
+Casing
+Casings
+Cast
+Cast Bullet
+Cast-Neutral
+Cast-Off
+Cast-On
+Casting
+Catapult
+Cb Cap
+Cei-Rigotti
+Centella
+Center Of Impact
+Center Pin
+Centerfire
+Centerfire Cartridge
+Centerfire Primer
+Chafa
+Chamber
+Chamber Cast
+Chamber Leade
+Chamber Pressure
+Chamber Reamer
+Chamfering
+Chapina carbine
+Charge
+Charging Handle
+Charter Arms 
+Chauchat 
+Chauchat-Ribeyrolles
+Cheap Jump
+Checkering
+Checkering Cradle
+Checkering Line Count
+Checkering Tools
+Checkpoints
+Cheek
+Cheekpiece
+Cherry
+Chiesanova 
+Chilled Shot
+China Lake 
+Chivo
+Choke
+Choke Markings
+Choke Tube
+Cholo
+Chopper
+Chopper Lump
+Chota
+Christensen 
+Chrome
+Chronograph
+Chropei
+Chropi
+Chropi rifle
+Churo
+Ciener
+Cimarron 
+Cl
+Claridge 
+Clavo
+Clay
+Clay Bird
+Clay Pigeon
+Clay Target
+Clip
+Close Quarters Battle Receiver
+Closing Spring
+Club
+Coastal Artillery
+Coated Bullet
+Coated Shot
+Cobra 
+Cobray
+Cochis
+Cock
+Cock-Down
+Cock-Up
+Cocking Handle
+Cocking Indicator
+Cocking Knob
+Cocking Lever
+Cocking On Closing
+Cocking On Opening
+Cocking Piece
+Cocking Rod
+Cocking Stud
+Coefficient Of Form
+Colleoni
+Colt
+Colt Buntline Special
+Colt CM901
+Colt's
+Comb
+Combat Weapons
+Combination Gun
+Combined Service Forces 205th Armory
+Combustion
+Commercial Bronze
+Companhia de Explosivos de Valparaiba
+Compensator
+Competition Shooting Sports
+Condado
+Coneshticof
+Conformal Gauge
+Conformal Transducer
+Congreve Rocket
+Conventional Multirole Combat Rifle
+Cooey 
+Cook submachine gun 
+Cook-Off
+Coonan 
+Copper Clad Steel
+Copper Crusher
+Copper Jacketed Bullet
+Copper Unit 
+Core
+Corrosive Primer
+Cortina
+Cossack
+Counter Recoil Spring
+Cracked Rim
+Crane
+Creep
+Crisp Trigger
+Cristobal Automatic
+Cross Bolt Safety
+Cross-Over-Stock
+Crossbolt
+Crossbow
+Crossfire
+Crossing
+Crotch Figure
+Crown
+Crowning
+Cruise Missiles
+Crusher
+Cuerno de Chivo
+Cuernos
+Cuete
+Culverin
+Cup 
+Cup Split
+Cup Wad
+Cut Checkering
+Cut Choke
+Cut Off
+Cut Off Rupture
+Cut Rifling
+Cyclic Rate
+Cycling An Action
+Cyl.
+Cylinder
+Cylinder Alignment
+Cylinder Bolt
+Cylinder Bore
+Cylinder Bore Choke
+Cylinder End Shake
+Cylinder End-Play
+Cylinder Gap
+Cylinder Indexing
+Cylinder Latch
+Cylinder Pin
+Cylinder Release
+Cylinder Release Latch
+Cylinder Stop
+Cylinder Stop Notch
+Cylinder Timing
+Cylinder-Barrel Gap
+DA
+DES 
+DK
+DOG-1
+DP
+DPM
+DPMS
+DSR
+DSh
+DShK
+DT
+DTM
+DWM
+Daewoo
+Daewoo K2
+Dagger
+Daisy
+Damascus Barrel
+Dan Wesson
+Dardick 
+Datum
+Davis Warner
+De Lisle
+Dead Blow Action
+Decapper
+Definitive Proof Cartridge
+Deflagration
+Deflection
+Deflector
+Degtyarev Plant
+Delayed Blowback Action
+Delayed Fire
+Demi-Block
+Demro
+Denel
+Dent Raiser
+Dent Remover
+Depth Charge
+Derringer
+Desarrollos
+Desarrollos Industriales Casanave SC-2005
+Desert Eagle
+Designation  Metric Cartridge
+Destroyer carbine
+Detent
+Detonation
+Detonics
+Devel
+Dewat
+Diemaco
+Dinley
+Dirty Bomb
+Discharge
+Disconnector
+Dise?os Casanave
+Disenos
+Disintegrating Bullet
+Disintegrating Projectile
+Disjunctor
+Dispersion
+Disraptor
+Dlugov
+Dog
+Dolls Head
+Dominant Eye
+Double
+Double Action
+Double Action Only
+Double Action Pistol
+Double Action Revolver
+Double Barrel
+Double Barrel Shotgun
+Double Base Powder
+Double Pull Trigger 
+Double Set Trigger
+Double Tap
+Double Trigger
+Double-Barrel
+Double-Gun
+Doubling
+Doughnut Pattern
+Draco
+Dragoon
+Dragunov
+Dram Equivalent
+Draw Mark
+Draw-Line
+Drawfiling
+Dreyse 
+Dreyse Rifle
+Drilling
+Drop At Comb
+Drop At Heel
+Drop At Monte Carlo
+Drop Block Action
+Drop Safety
+Drop Shot
+Drop Test
+Dropped Primer
+Dropping Block Action
+Dry Fire
+Dry Firing
+Dual
+Dum-Dum
+Dumdum
+Dumdum Bullet
+Dummy Cartridge
+Dummy Screw
+Duplex Load
+Dust Cover
+Dust Shot
+EBO Kefefs
+EDDA 
+EDM 
+EF88 Austeyr
+ELF-2
+EM-2 rifle
+EMER K1
+ENARM
+EPK
+EX-17
+EXP-1
+EXP-2
+EZ	
+Ear Protection
+Effective Range
+Ejection
+Ejection Port
+Ejector
+Ejector Rod
+Ekins Automatic
+El Tiene Manejo
+Electrical Trap
+Elevation Adjustment
+Empty Shell
+Encapsulated Bullet
+Enfield	
+Engine Turning
+English Stock
+Erma
+Erma Werke
+Erma-Panzer
+Escuela
+Escutcheon
+Evans Repeating Rifle
+Excalibur rifle
+Expander Plug
+Expanding Bullet
+Exploding Bullet
+Explosion
+Explosive
+Express Sight
+Exterior Ballistics
+Extraction
+Extractor
+Extractor Cut
+Extractor Groove
+Extractor Rod
+Extreme Horizontal Spread
+Extreme Spread
+Extreme Vertical Spread
+Eye Protection
+F
+F.M.A.P
+F1 Submachine Gun
+F2A2
+F88 Austeyr
+F88C Austeyr
+F88S GLA	
+F88S-A1 Austeyr
+F88S-A1C Austeyr
+F88S-A2 Austeyr
+F88T Austeyr	
+F89 Minimi
+F90
+F90 Austeyr
+FA56	
+FA59
+FAD 
+FAMAE
+FAMAS
+FARA
+FARA 83
+FAVS
+FB Beryl
+FB MSBS
+FB Tantal
+FBP
+FEG
+FEG 
+FM
+FMK
+FN
+FN CAL
+FN F2000
+FN FNC
+FN SCAR-H
+FN SCAR-L
+FNAB-43
+FNP 40
+FP-45
+FR8
+FX-05
+FX-05 Xiuhcoatl
+Fabarm
+Fail-To-Fire
+Failure To Feed
+Falling Block Action
+Feather Industries
+Feddy
+Feed Mechanism
+Feed Ramp
+Feed Throat
+Feria
+Ferret 50
+FiatRevelli
+Field Load
+Fierro
+Filero
+Filler Wad
+Finger Lever
+Fire Control
+Fire Control System
+Fire-Form
+Firearm
+Firearms
+Firing Cycle
+Firing Pin
+Firing-Pin
+Firing-Pin Bushing
+Firing-Pin Indent
+Firing-Pin Protrusion
+Fittipaldi 
+Five-In-One Blank
+FiveSeveN
+Fixed Ammunition
+Flake Powder
+Flamethrower
+Flash Hider
+Flash Hole
+Flash Suppressant
+Flash Suppressor
+Flat Nose Projectile
+Flat Trajectory
+Flat-Nosed Bullet
+Flattened Primer
+Flint Lock
+Floating Chamber
+Floating Firing-Pin
+Floor Plate
+Floro 
+Floro PDW
+Fluted Barrel
+Fluted Chamber
+Fluting
+Flyer
+Fo' five (.45)
+Foil
+Fokker-Leimberger
+Folded Crimp
+Folding Sight
+Folding Stock
+Follower
+Food Stamps
+Forcing Cone
+Fore-End
+Fore-End Iron
+Fore-End Lug
+Fore-End Plate
+Forearm
+Forjas Taurus
+Form Factor
+Formula
+Fort-
+Fostech
+Four-Fifth
+Four-pound
+FoxCo
+Frame
+Franchi 
+Frangible
+Frangible Bullet
+Frangible Projectile
+Fratelli Tanfoglio
+Frecuencia
+Free Bore
+Free Floating Firing-Pin
+Free Rifle Stock
+Free Travel
+French 75
+French Checkering
+Friction Ring
+Front Sight
+Front Sight Blade
+Front Sight Hood
+Front Strap
+Full
+Full Auto
+Full Automatic
+Full Choke
+Full Jacketed Projectile
+Full Length Resizing
+Full Length Sizing
+Full Metal Jacket
+Full Metal Jacket Bullet
+Full-Cock
+Fully
+Fused Shot
+G22	
+G24
+G25
+G36
+GAU
+GAU-17/A
+GIAT
+GIAT FAMAS
+GIAT PAMAS-G1	
+GL-40
+GORDA
+GPC9
+GSG-5
+GSh-23
+Gabriel & Vojta
+Gain Twist
+Gallery Bullet
+Gameboy
+Ganzstahl Sportpistole Wolf
+Garand Rifle
+Garanin
+Gas Check
+Gas Check Bullet
+Gas Cutting
+Gas Operated
+Gas Operated Action
+Gas Orifice
+Gas Piston
+Gas Port
+Gas Vent
+Gat
+Gatling Gun
+Gauge
+Gayola
+Gep?rd
+Gepard 
+German 88
+Gevarm
+Gilding Metal
+Glass Bedding
+Globe Front Sight
+Glock
+Glock 17
+Glock 18
+Glock 19
+Glock 20
+Glock 21
+Glock 23
+Glock 30
+Goblin SMG
+Gordon Close-Support Weapon System	
+Gordon Ingram
+GrB 39
+Grad
+Grad AR
+Grain
+Grand Power
+Grapeshot
+Greek Fire
+Greener Prison
+Grenade
+Grendel
+Grip
+Grip Adapter
+Grip Safety
+Grips
+Grizzly Big Boar	
+Groove Diameter
+Grossfuss Sturmgewehr
+Grot
+Group
+Group Size
+Guard Screw
+Guide Screws
+Gun
+Gun Cotton
+Gun Lock
+Gun Powder
+Gun Room
+Gunpowder
+Gusano
+Gustloff-Werke
+Gyrojet
+H&R Pardner
+HIW VSK
+HK
+HK-416
+HOLEK	
+HS 
+HS Produkt VHS
+HS2000
+HS2000M
+Hafdasa
+Hagelberg
+Hair Trigger
+Hakim Rifle
+Halberd
+Halcon
+Half Cock
+Half Cock Safety
+Half Stock
+Hamilton mod. 1901
+Hammer
+Hammer Block
+Hammer Forged
+Hammer Forged Barrels
+Hammer Nose
+Hammer Notch
+Hammer Rifling
+Hammer Spur
+Hammer Strut
+Hammered Barrel
+Hammered Rifling
+Hammerless
+Hand
+Hand Checkering
+Hand Stop
+Hand Trap
+Hand cannon
+Hand-To-Hand Combat Weapons
+Handgun
+Handloading
+Hangfire
+Hard Shot
+Harquebus
+Harris
+Harris Gun
+Haskell 45
+Head
+Head Clearance
+Headspace
+Headspace Gauge
+Headstamp
+Hearing Protection
+Heat
+Heater
+Heavy Metal
+Heckler & Koch
+Heckler & Koch G11
+Heckler & Koch G36
+Heckler & Koch G41
+Heckler & Koch HK33
+Heckler & Koch HK36
+Heckler & Koch HK416
+Heckler & Koch HK433
+Heckler and Koch
+Heel
+Heel Cavity
+Heeled Bullet
+Heidar
+Helenius
+Henry Rifle
+Hesse
+Hessische
+Heym
+Hi-Point
+High Base
+High Brass
+High Cup
+High Standard
+Hillberg 
+Hinawa
+Hinge
+Hinge Pin
+Hinged Frame Action
+Hinged Or Folding Trigger
+Hino Komuro
+Holding Dine
+Hollow Base Bullet
+Hollow Point
+Hollow Point Bullet
+Hooded Sight
+Hook Of Lump
+Hook Rifling
+Hopkins & Allen 
+Horizontal Dispersion
+Hotchkiss
+Hotchkiss Machine Gun
+Hovea 
+Howa 
+Howa Type 89
+Howard Francis
+Howell 
+Hua Qing
+Huaqing 
+Hughes
+Hull
+Hunt
+Huot
+Hyde Carbine
+I
+IG12 AOW
+IMBEL
+IMBEL IA2
+IMBEL MD
+IMI 
+IMI Galil
+INA 
+INDEP 
+INSAS rifle
+ISTEC
+IWI ACE
+IWI Tavor
+IWI X95
+IWS 
+Ic
+Icbm
+Ignition Barrel
+Ignition Time
+Ii
+Iii
+Iiii
+Im
+Imp. Cyl.
+Imp. Mod.
+Impressed Checkering
+Improved Cylinder
+Improved-Modified 
+Imr Powder
+In Battery
+In Line
+Index Mark
+Indumil
+Industrial Cartridge
+Inertia Block
+Inertia Bullet Puller
+Inertia Firing-Pin
+Inertia Operated
+Inertia Operated Action
+Inertia Trigger
+Informant
+Ingram
+Inletting Screws
+Inside Lubricated Bullet
+Instrumental Velocity
+Integral Base Wad
+Interchangeable Barrel
+Interdynamic 
+Interdynamics MKS
+Interior Ballistics
+International Ordnance
+Intratec
+Intrepid
+Iron
+Iron Fore-End
+Iron Sight
+Ishapore
+Isotta Fraschini 
+Istiglal
+Ithaca 
+Ithaca 37
+Izhmash
+J.P. 
+JAWS Viper
+JO.LO.AR.	
+JP-15	
+Jail
+Jalape?os
+Jalapenos
+Jam
+Janka Hardness
+Janka Test
+Jarmann
+Jatimatic 
+Jennings 
+Jeweling
+Jezail
+Jig
+Jimenez
+John Browning
+Johnson Model
+Joint
+Joint Pin
+Judge	
+Jug Choke
+Jump
+Jura
+K-3
+K-50M
+K100
+K102 R
+K105 R
+K31	
+KAC 
+KAL1 
+KB-P
+KB-ST
+KBP
+KGP-9
+KH-2002
+KL .303
+KOVROV
+KP-5
+KRISS
+KS
+KSVK
+Kahr
+Kalashnikov
+Kalekalip
+Kanuni
+Kashatn
+Kassnar
+Kbk wz.
+Kbkg wz.
+Kbkg wz. 1960
+Kbs wz.
+Keel
+Keeper
+Kefefs
+Kel-Tec
+Kernel
+Keyhole 
+Keyholing
+Kick
+Kicker
+Kimber
+Kimmel
+Kinetic Energy
+Kintrek
+Knorr-Bremse 
+Knuckle
+Knuckle Buster
+Knurl
+Knurling
+Kobra	
+Kokoda	
+Kommando
+Kordon	
+KragJ?rgensen
+KragPetersson
+Kreighoff MG39
+Kronze
+Kropatschek
+L.A.R.
+L1 
+L11 
+L119A1
+L11A1
+L123A2 UGL
+L17
+L19	
+L2
+L20 
+L22A1 Carbine
+L3
+L37 
+L4
+L40A1
+L47 
+L48
+L5
+L6	
+L64
+L65
+L66 
+L67A1
+L7
+L8	
+L85	
+L85
+L86 LSW
+L9
+L94 
+L98 
+LAD
+LAPA
+LCZ B20	
+LOM 30 
+LR-300
+LSAT rifle
+LSW
+LaFrance
+Labora Fontbernat 
+Lacoste LDP
+Lacroix SUW
+Lahti 
+Lahti-Saloranta 
+Laminated Barrel
+Laminated Case
+Laminated Stock
+Lana
+Lance
+Lance Missile
+Lanchester
+Land
+Lands
+Lanyard
+Lap
+Lapping
+Las Direcciones
+LaserAim 
+Latch
+Le Fran?ais
+Le Francais
+Le Protector
+LeMat 
+Lead Bullet
+Lead Knife Groove
+Lead Shot
+Lead Units Of Pressure
+Leade
+Leader Dynamics 
+Leader Dynamics Series T2 MK5
+Leading
+Leaf Sight
+Lebedev
+Lebel 1886
+Lee-Enfield Rifle
+LeeEnfield
+Length Of Pull
+Length Of Stock
+Leopard 
+Lercker	
+Lettet-Fors?gs
+Lettet-Forsogs
+Lever
+Lever Action
+Lever Lock
+Lewis Gun 
+Lewis Light Machine Gun
+Lifter
+Lifter Pawl
+Light Blow
+Light Hit
+Light Machine Gun 
+Light Strike
+Lighter
+Line Engraving
+Line Of Departure
+Line Of Sight
+Line of Bore
+Lineas
+Link
+Linkage
+Lipped-Mouth
+Lithgow
+Little Friend
+Live Ammunition
+Llama
+Llama 
+Load
+Loading Block
+Loading Density
+Loading Gate
+Loading Port
+Loading Ramp
+Lock
+Lock Energy
+Lock Frame
+Lock Plate
+Lock-Time
+Locked Breech Action
+Locking Block
+Locking Bolt
+Locking Cam
+Locking Lug
+Long Gun
+Long Rifle
+Long Weapon
+Longbow
+Lookout
+Loose Primer
+Lorenz Infantry
+Los Americanos
+Lot Of Powder
+Low Base
+Low Brass
+Low Cup
+Lubricated Cartridge
+Lubrication Grove
+Lucznik
+Luger
+Luger Pistol
+Lump
+Lumps
+Lup 
+Luz
+M
+M.G.91	
+M.O.A.
+M1
+M110 
+M129
+M134
+M134D
+M134G
+M14 
+M16
+M16 Rifle
+M18
+M1870
+M1871
+M1878
+M1883 
+M189
+M19
+M1915/19
+M2
+M202
+M203
+M203 DAX	
+M203A1
+M203A1 SOPMOD
+M203A2
+M203PI
+M21
+M218
+M223
+M22H
+M24
+M25
+M3
+M30C
+M39
+M3A1
+M4
+M40
+M415	
+M415T	
+M416
+M42
+M44	
+M444
+M454
+M480
+M500
+M59
+M60
+M605
+M60B
+M60C
+M60D
+M60E1
+M60E2
+M60E3
+M60E4
+M60E6
+M627
+M66
+M669
+M70
+M72	
+M75
+M76	
+M77
+M79
+M84	
+M85
+M86	
+M89SR 
+M9
+M92S
+M970
+M971
+M972
+M?tral 
+MAB
+MAC
+MAC 
+MAC-10
+MAC-11
+MAC-12
+MAG
+MAS 
+MAS .223
+MASAF
+MAT
+MC255	
+MCEM 
+MEMS
+MG
+MG42/59
+MGV 
+MK-
+MKEK 
+ML-60
+MORS 
+MP 
+MP 35
+MP-353	
+MP-44
+MP-451	
+MP-472	
+MP-5
+MP-7
+MPA
+MSR
+MSSR
+MXU
+MZ14
+Maadi 
+Machine Checkering
+Machine Gun
+Machine Rest
+Madrina
+Madsen
+Mag Machine Gun
+Magazine
+Magazine Catch
+Magazine Cut Off
+Magazine Fed
+Magazine Follower
+Magazine Latch
+Magazine Lock
+Magazine Plug
+Magazine Release
+Magazine Spring
+Magazine Tube Bracket
+Maggie
+Magnum
+Magnum Cartridge
+Magpul 
+Magtech 
+Mainspring
+Makarov
+Malfunction
+Mamba	
+Mambi 
+Mannlicher 
+Mannlicher Magazine
+Mannlicher Stock
+MannlicherSch?nauer	
+Manual
+Manual Safety
+Manurhin
+Manville
+Mark
+Markings
+Marlin
+MartiniHenry Carbine
+Master Eye
+Master Key
+Match Ammunition
+Mateba 
+Matte
+Matte Finish
+Matting
+Mauser
+Mauser Rifle
+Maxi Ball
+Maxim 
+Maxim Machine Gun
+Maximum Charge
+Maximum Range
+McCrudden 
+McMillan
+Mean Radius
+Mechanical Trap
+Medved
+Mekanika
+Mendoza
+Meplat
+Meriden
+Mershon and Hollingsworth 
+Metal
+Metal Cased Bullet
+Metal Fouling
+Metal Patched Bullet
+Metallic Ammunition
+Metallic Cartridge
+Metallic Sight
+Metford Rifling System
+Mg42
+Micrometer Powder Measure
+Micrometer Sight
+Mid Bead Sight
+Mid-Range
+Mid-Range Trajectory
+Middle Sight
+Mil
+Milcam
+Milkor
+Millennium 
+Millimeter
+Mine
+Minebea
+Mini-14
+Minie Ball
+Minute Of Angle 
+Minuteman Missile
+Mirage
+Misfeed
+Misfire
+Missiles
+Mitchell 
+Mk
+Mk 43 
+Moa
+Mod
+Model 455
+Modelo 1921 MAF
+Modified
+Monobloc
+Monte Carlo
+Monte Carlo Stock
+Mortar
+Mosca
+Moscas
+MosinNagant
+Mossberg
+Mossberg 500
+Mossberg 935
+Mousquetons Berthier
+Mouth
+Mubariz
+Muebles
+Muharram 
+Mukden 
+Mullering Tool
+Multi Caliber Individual Weapon System
+Multiple Leaf Sight
+Murata 
+Murder
+Mushroom
+Mushroom Bullet
+Mushrooming
+Musket
+Musket Cap
+Muzzle
+Muzzle Blast
+Muzzle Brake
+Muzzle Cap
+Muzzle Crown
+Muzzle Energy
+Muzzle Flash
+Muzzle Guard
+Muzzle Jump
+Muzzle Loader
+Muzzle Velocity
+Muzzle Wave
+Muzzleloader
+MuzzleBreak
+N-PAP DF M70	
+N-PAP M70
+NA
+NAACO 
+NATIC
+NTK-62	
+Nagant
+National Match Ammunition
+National Match Bullet
+Nato Cartridge
+Neck
+Neck Annealing
+Neck Clearance
+Neck Crack
+Neck Of Cartridge
+Neck Radius
+Neck Sizing
+Neck Tension
+Neck Thickness
+Necking-Down
+Neostead
+Nesterov assault rifle
+New Zealand Carbine
+Nexter
+Nickel
+Nike Missile
+Nipple
+Nipple Pick
+Nipple Wrench
+Nitro Card Wad
+Nitro Wad
+Nitrocellulose Powder
+Nitroglycerine
+Nm 
+Nominal Charge
+Non-Corrosive
+Non-Corrosive Primer
+Non-Hygroscopic Powder
+Non-Mercuric Primer
+Non-Selective Single
+Norinco
+Norinco CQ
+Norinco Type 86S
+Northwood 
+Northwood Development
+Nose
+Nosler
+Nosorog
+Notch Sight
+Nutcracker Tool
+O-PAP M70
+O/U
+OCSW
+OKB-575
+OSV-96
+OTs
+OTs-12 Tiss
+Obrez
+Obturation
+Offset Mount
+Offset Stock
+Ogive
+Ogive Bullet
+Oil Dent
+Oilproof
+Olin 
+Olympic Arms
+Omega SPS-12
+Onager
+One Piece Mount
+One Piece Shotshell
+One Piece Stock
+Open Bolt Action
+Open Breech Action
+Open Point
+Open Point Expanding Bullet
+Open Sight
+Operating Handle
+Operating Lever
+Operating Spring
+Optical Sight
+Orange Peel
+Ordnance
+Orgullo De La Industria
+Orifice
+Origin 12
+Origin Of Trajectory
+Orita 
+Ortgies 
+Out-Of-Battery
+Outside Lubricated
+Outside Lubricated Bullet
+Over and Under
+Over-Bore
+Over-Bore Capacity
+Over/Under
+Overall Length
+Overpowder Wad
+Overtravel
+Owen 
+P-64
+P-70
+P-75
+P-78
+P-83
+P-93
+P1
+P11
+P40
+P45
+P89
+P90
+P90 (PDW)
+PAP M70
+PAPOP
+PAWS
+PGM
+PH-45
+PK
+PKM	
+PKMS
+PKP
+PKT
+PM-06
+PM-63 
+PM-70	
+PM-73
+PM-84
+PM-98
+POF 
+POF SMG5-K
+PP-2000
+PP-9
+PP-9 
+PPD
+PPK-12	
+PPS
+PPSh-41
+PR-71	
+PT 24/7 
+PT-9
+PTR
+PTR 91
+PTRD-41
+PTRS-41
+PV-1 
+PVAR rifle
+Paco
+Paine Sight
+Pajaro
+Palm Rest
+Palo
+Pancor Jackhammer
+Pantalon
+Panzerfaust
+Panzerschreck
+Paolone & Sala 
+Paper
+Paper Disc
+Paper Shell
+Paper Shotshell
+Para Ordnance
+Para-Ordnance
+Pardini
+Paris Gun
+Parker Hale
+Parkerizing
+Partition Bullet
+Party Time
+Pat
+Patch
+Patched Ball
+Patria
+Patridge Sight
+Patriot 
+Pattern
+Pauza 
+Pawl
+Peacekeeper Missile
+Peak Pressure
+Peep Sight
+Pellet 
+Pellet Pistol
+Penetration
+Pepos
+Perazzi
+Percussion
+Percussion Cap
+Percussion Composition
+Perrino
+Persuader
+Peters Stahl
+Petn
+Pfeifer 
+Pfeifer Waffen
+Phoenix 
+Phoenix Arms
+Pie Crimp
+Piece
+Pierce
+Pierced Primer
+Piezo Transducer
+Piezoelectric Pressure
+Piezoelectric Pressure Transducer
+Pike
+Pindad
+Pindad SS1
+Pindad SS2
+Pistol
+Pistol Grip
+Pistol Grip Adapter
+Pistol Grip Stock
+Pistol Mitraliera model 1963/1965
+Pistol Slide
+Pistolet wz. 
+Piston Ring
+Pit
+Pitch
+Pitufo
+Pivot Safety
+Pivoting Block Action
+Plastic
+Plastic Shotshell
+Plated Bullet
+Plated Shot
+Plinking
+Plug Bullet
+Plug Screw
+Point Blank
+Point Of Impact
+Point-Blank-Range
+Point-Of-Aim
+Pointed Projectile
+Polaris Missile
+Police
+Poly
+Poly Technologies
+Ported
+Ported Barrel
+Poseidon Missile
+Post Sight
+Pound
+Powder
+Powder Actuated Tool
+Powder Burn
+Powder Burning Rate
+Powder Charge
+Powder Deterioration
+Powder Fouling
+Powder Measure
+Powder Mill
+Powder Scale
+Power Device Cartridge
+Prado
+Premature Firing
+Prescribed Load
+Pressure
+Pressure Barrel
+Pressure Curve
+Pressure Determination
+Pressure Estimation
+Pressure Gauge
+Pressure Transducer
+Pretravel
+Prilutsky M1914
+Primer
+Primer Cratering
+Primer Cup
+Primer Drop Test
+Primer Flash
+Primer Flow-Back
+Primer Leak
+Primer Pellet
+Primer Pocket
+Primer Seating
+Primer Setback
+Primer Tube
+Priming Mix 
+Priming Mixture
+Prison
+Private Party Transfer
+Problem solver
+Professional Ordnance
+Progressive Burning Powder
+Projectile
+Projectile Drop
+Projectile Energy
+Projectile Rotation
+Proof Load
+Proof Mark
+Proof Test
+Propellant
+Provisional Proof Cartridge
+Psg 90
+Pu?ca Automata model 1986
+Pull-Through
+Pump
+Pump Action
+Pump Gun
+Punctured Primer
+Pusca
+Push Button Safety
+Pyramid Sight
+PzB 38
+PzB 39
+QBZ-03
+QBZ-95 
+QBZ-97
+Quarterstaff
+Quick Detachable Swivel
+R1A1
+R2A1
+R3A1
+RAG
+RAI 300
+RAS-12
+RATMIL
+RGA-86
+RH-ALAN
+RIA 
+RKM wz. 15
+RKM wz.28
+RMB-93
+RMO-93
+RMf-96
+ROMTEHNICA-RATMIL 
+RP-46
+RPB
+RPC Fort
+RPD
+RPDM
+RPK
+RPK-12	
+RPK-201
+Radial Pressure Gauge
+Radom-Hunter
+Raging Bull
+Raging Judge
+Ram
+Ramp Sight
+Ramrod
+Randall 
+Range
+Ranged Weapons
+Rasheed 
+Rasheed Carbine
+Rast & Gasser
+Ratchet
+Rate Of Twist
+Raven 
+Raven Arms
+Rdx
+Rear Sight
+Rebarrel
+Rebated Cartridge
+Rebated Case
+Rebated Head
+Rebound
+Rebound Lever
+Rebound Slide
+Rebounding Hammer
+Rebounding Lock
+Receiver
+Receiver Bridge
+Receiver Ring
+Receiver Sight
+Recessed Bolt
+Rechamber
+Recoil
+Recoil Absorber
+Recoil Lug
+Recoil Operated
+Recoil Operated Action
+Recoil Pad
+Recoil Pendulum
+Recoil Plate
+Recoil Shield
+Recoil Shoulder
+Recoil Spring
+Reduced Charge
+Reduced Hazard
+Reference Ammunition
+Regent
+Regent Arms
+Regulating Barrels
+Reising
+Release Trigger
+Relief Engraving
+Reload
+Reloading
+Reloading Components
+Reloading Data
+Reloading Dies
+Reloading Powder
+Reloading Press
+Remaining Velocity
+Remington 
+Remington Arms
+Remington GPC
+Remington Model 11-87
+Remington R5 RGP
+Repeater
+Repeating Rifle
+Residual Pressure
+Resistance
+Resolver 
+Rest
+Restock
+Retarded Blowback
+Reticle
+Retracting Spring
+Retractor
+Revolver
+Revolvers
+Rexio
+Rib
+Rib Extension
+Ribeyrolles
+Ricochet
+Rieder 
+Rifle
+Rifle No. 4 Mk 
+Rifle Sling
+Rifled Slug
+Rifles
+Riflescope
+Rifling
+Rifling Broach
+Rifling Head
+Rifling Marks
+Rifling Pitch
+Rim
+Rim Seat
+Rim-Split
+Rimfire Cartridge
+Rimfire Primer
+Rimless Cartridge
+Rimless Case
+Rimmed Cartridge
+Rimmed Case
+Ring Bulge
+Ringed Barrel
+Rivelling
+Rk 62
+Rk 95 TP
+Robar 
+Robinson 
+Robinson Armament 
+Robinson Armament XCR
+Rockets
+Rocky Mountain Patriot 
+Rofi
+Roll Crimp
+Rolled Crimp
+Rolling Block
+Rolling Block Action
+Romanas
+Romanian
+Roscoe
+Rose Crimp
+Rossi
+Rotary Magazine
+RothSteyr 
+Rough Inletted Stock
+Round
+Round Ball Projectile
+Round Butt
+Round Nose Bullet
+Royal Irish Constabulary Carbine
+Royal MG34
+Ruby
+Ruger
+Ruger Blackhawk
+Rung Paisarn
+Rupture
+S&T Daewoo K11
+S&W
+SAG
+SAI
+SAR 80
+SAR-21
+SAR-80
+SAR-87	
+SCAM
+SCK
+SG
+SIG
+SIG MCX
+SIG SG 530
+SIG SG 540
+SIG SG 550
+SIG Sauer
+SIG Sauer 1911
+SIG Sauer P226
+SIG Sauer SIG516
+SKS
+SKT-40
+SLEM-1
+SLR-15
+SM-9
+SOCIMI 
+SOCIMI AR-831
+SPHINX 
+SPP-1 Underwater
+SR 88
+SR-1 
+SR-3 
+SR-3 Vikhr
+SR-47
+SR-98	
+SRM
+SRM Arms
+SSG-69	
+ST Kinetics 40 GL
+ST Kinetics SSW	
+STI
+SV-338	
+SV-98	
+SV99
+SVD-12	
+SVN 98
+SVT-38	
+SVT-40	
+SW
+Sa vz. 58
+Saab Bofors
+Sabot
+Sabot Type Projectile
+Sabre
+Saddle Ring
+Safe
+Safe Carrying Condition
+Safety
+Safety Mechanism
+Safir
+Saiga
+Sako
+Salvator-Dormus
+San Crist?bal
+San Cristobal
+Sanna 
+Saritch 
+Saturday Night Special
+Saturday night special
+Savage Arms
+Savin Narov
+Sawed-Off Shotgun
+Sawed-off
+Scandium
+Scatterload
+Schmeisser
+SchmidtRubin
+Schnabel
+Schnabel Fore-End
+Schuetzen Buttplate
+Schwarzlose 
+Schwarzlose Machine Gun
+Scope
+Scope Sight
+Score
+Scout Elite	
+Sear
+Season Cracking
+Seating
+Seating Depth
+Secant Ogive
+Sectional Density
+Sedgley
+Seecamp
+Segmented Crimp Collet Crimp
+Selective Single Trigger
+Selector
+Self-Loader
+Self-Loading
+Semi
+Semi-Finished Stock
+Semi-Inletted Stock
+Semi-Jacketed Bullet
+Semi-Jacketed Hollow Point Bullet
+Semi-Rimmed Cartridge
+Semi-Rimmed Case
+Semi-Wadcutter
+Semi-Wadcutter Bullet
+Semi-automatic
+Semiautomatic
+Semiautomatic Action
+Semiautomatic Pistol
+Sensitivity Test For Primed Shells Or Primers
+Seraphim
+Serbu
+Serial Number
+Serrated Trigger
+Serration
+Service Cartridge
+Service Load
+Service Loads
+Set Trigger
+Setting
+ShKAS
+Shaher
+Sharps
+Sheath Trigger
+Shell
+Shell Catcher
+Shell Holder
+Shell Latch
+Shell Stop
+Shellcase
+Shells
+Shock Wave
+Shocking Power
+Shoe
+Shoot
+Shoot-Off
+Shooter
+Shooting
+Short
+Short Round
+Shorts
+Shot
+Shot Bridging
+Shot Cartridge
+Shot Column
+Shot Cup
+Shot Diverter
+Shot Size
+Shot String
+Shot-Collar
+Shot-Protector Wad
+Shotgun
+Shotgun Stock
+Shotshell
+Shotty
+Shoulder
+Shoulder Radius
+Shoulder Split
+Shoulder-Arm
+Shrapnel
+Side Lock Action
+Side Pin Or Screw
+Side-By-Side
+Side-Hammer
+Side-Lock
+Side-Plate
+Sidearm
+Sight
+Sight Adjustment
+Sight Alignment
+Sight Aperture
+Sight Base
+Sight Bead
+Sight Blade
+Sight Cover
+Sight Disc
+Sight Elevation
+Sight Extension
+Sight Hood
+Sight Inserts
+Sight Leaf
+Sight Picture
+Sight Radius
+Sight Ramp
+Sighting-In
+Sighting-Shot
+Silencer
+Silin
+Sima
+Single Action
+Single Action Pistol
+Single Action Revolver
+Single Base Powder
+Single Point Sling
+Single Shot
+Single Shot Action
+Single Stage Trigger
+Single Trigger
+Single-Action Revolver 
+Single-Double Trigger
+Six O'clock Hold
+Sizing
+Sizing Die
+Sj?gren shotgun
+Sk
+Sk Usa
+Skeet
+Skeet Gun
+Skeet Shooting
+Skeet Usa
+Skeleton Butt Plate
+Skid Marks
+Skip-A-Line
+Skip-Line
+Skip-Line Checkering
+Skoda M1893	
+Skoda M1909	
+Slave Action
+Slave Pin
+Sleeve
+Slide
+Slide Action
+Slide Lock 
+Slide Stop
+Sliding Safety
+Sling
+Sling Swivel
+Slostin 
+Slot Blank
+Slotted Tip
+Slug
+Slugging
+Small Arms
+Small Bore Cartridge
+Small Of The Stock
+Small-Bore
+Smith & Wesson
+Smith Carbine
+Smokeless Powder
+Smooth-Bore
+Smuggle
+Snap-Cap
+Sniper
+Snub
+Snubby
+Soft Point Bullet
+Soft Point Projectile
+Soft Shot
+Sokol
+Sokolovsky Automaster
+Soldier
+Solid Frame
+Solid Rib
+Solothurn
+Something
+Sound Suppressor
+Spasov 
+Spear
+Spear-Thrower
+Special
+Special Operations Assault Rifle
+Spectre M4
+Speed Of Rotation
+Spencer Carbine
+Spent Bullet
+Spent Projectile
+Spent Slug
+Spherical Propellant
+Spin
+Spin Drift
+Spire Point Bullet
+Spire Point Projectile
+Spitzer Bullet
+Spitzer Projectile
+Split Base
+Split Bridge
+Split Case
+Split Neck
+Split Rim 
+Spool Magazine
+Sporterize
+Sporting Arms
+Sporting Arms Ammunition
+Sporting Clay
+Spreader Load
+Springfield 
+Springfield Armory
+Springfield Rifle
+Spur Trigger
+Spz-kr
+Spz-kv	
+Spz-l
+Square Butt
+Squib
+Squib Load
+StG 44	
+StG 44
+StG 45(M)
+StG 58
+Stab Crimp
+Stainless
+Stake Crimp
+Standard Velocity
+Standing Breech
+Star
+Star Bonifacio
+Star Crimp
+Star Gauge
+Starr 
+Starr Arms
+Steady-Pin
+Steel
+Steel Jacketed Bullet
+Steel Shot
+Stem 
+Stemming
+Stemple 
+Sten
+Sten Gun
+Sterling 
+Sterling Armaments
+Sterling SAR-87
+Steyr
+Steyr AUG
+Steyr Mannlicher
+Steyr-Solothurn 
+Stippling
+Stirrup
+Stock
+Stock Bolt
+Stock Dimensions
+Stock Pitch
+Stock Screw
+Stock Warpage
+Stockmaker's Hand Screws
+Stoeger 
+Stoner 
+Stoner 63
+Stoppage
+Stopping Power
+Stove-Piping
+Straight Grip
+Straight Grip Stock
+Straight Pull
+Straight Stock
+Strain Gauge
+Strain Screw
+Strap
+Straps
+Strawman
+Strawman Purchase
+Stray
+Street Sweeper
+Striker
+Striking Energy
+Striking Velocity
+Strip
+Stripped Action
+Stripping
+Strut
+Stud Trigger
+Sturmgewehr 
+Sub-Caliber Ammunition
+Subcaliber
+Subcaliber Tube
+Submachine Gun
+Submachine Guns
+Suigi Finish
+Sumitomo M249
+Summit Velocity
+Suomi KP
+Suppressor
+Swaged Bullet
+Swaged Choke
+Swaged Rifling
+Swivel Bow
+Swivel Sling
+Sword
+T-40
+T-Bolt
+T1 
+T161
+T161E3
+T52
+T57
+T65
+T65K
+T74
+T75
+T77
+T86 
+T9
+T90
+T91
+T97
+TALA 
+TEC-9
+TERA
+TKB-
+TKB-0146
+TKB-023
+TKB-072
+TKB-506	
+TKB-517
+TOZ-123
+TP-82
+TRG
+TRI-C
+TSNIITOCHMASH 
+TSV 
+TSV-1
+TUMA 
+TVGK	
+TZ-45
+Tac-50
+Tactical Shotgun
+Taden 
+Take Down
+Takedown
+Tanegashima	
+Tanfoglio 
+Tang
+Tang Safety
+Tang Screw
+Tang Sight
+Tangent Ogive
+Tangent Sight
+Tango 51	
+Taper Crimp
+Tarage Table
+Target
+Target Hammer
+Target Rifle
+Target Shooting
+Target Sight
+Target Sling
+Target Stock
+Target Trigger
+Targeting
+Taurus
+Taurus ST-12
+Tear-Down
+Tec
+Telescope
+Telescope Mount
+Telescopic Sight
+Temperature Of Ignition
+Tenon
+Terminal Ballistics
+Terminal Energy
+Terminal Velocity
+Test Barrel
+Theodor Bergmann
+Thicket Load
+Thomet
+Thompson
+Thompson .30 Carbine
+Thompson Autorifle	
+Thompson Light Rifle	
+Thompson Submachine Gun
+Three Leaf Sight
+Three-Quarter Stock
+Throat
+Thumb Latch
+Thumb Piece
+Thumb Rest
+Thumb Safety
+Thumbhole Stock
+Tigr
+Tikka 
+Time Of Flight
+Tip-Up
+Tipping
+Tnt
+Toaster
+Toe
+Tokarev 
+Tokyo Arsenal
+Tomahawk
+Tone
+Tong Tool
+Tool
+Tool Box
+Top Extension
+Top Strap
+Top Wad
+Top-Break
+Top-Break Action
+Torpedo
+Trabzon Silah Sanayi AS
+Trajectory
+Trajectory Table
+Transducer
+Trap
+Trap Door Action
+Trap Gun
+Trap Shooting
+Trap-Door Buttplate
+Tray
+Trejo 
+Tressitu 
+Trey-pound
+Trident Missile
+Trigger
+Trigger Assembly
+Trigger Bar
+Trigger Creep
+Trigger Force
+Trigger Guard
+Trigger Lock
+Trigger Mechanism
+Trigger Plate 
+Trigger Pull 
+Trigger Pull Scale
+Trigger Shoe
+Trigger Slack
+Trigger Squeeze
+Trigger Stop
+Trigger-Take Up
+Trinitrotoluene
+Trip
+Triple Base Powder
+Trombone Action
+Truncated Bullet
+Truncated Cone Bullet
+Truncated Projectile
+Truvelo 
+Try-Gun
+TsKIB-
+TuF
+Tubb 
+Tubb-2000
+Tube
+Tube Cutoff
+Tube Sight
+Tubular Magazine
+Tula Arms 
+Tula Choke
+Tumbler
+Tumbling
+Tunnel Mount
+Turn-Bolt
+Turnbolt Action
+Twin Bren
+Twin-Single Trigger
+Twist
+Twist Rate
+Two Piece Stock
+Two-Piece Mount
+Type 1
+Type 100 
+Type 11
+Type 56 
+Type 58 
+Type 63 
+Type 73
+Type 81
+Type 89 
+Type 99 
+U-94 
+U-Notch Sight
+UKM-2000	
+UKM-2013
+UKM-2015	
+Uirapuru
+Ullage
+Ultimax
+Ultramatic 
+Under-Lever Action
+Underbolt
+Underlugs
+Unibody Shell
+Union Automatic 
+Unione
+Universal M1 
+Universal Receiver
+Unload
+Unserviceable
+Upset Forging
+Uru 
+Uzi
+Uzi Submachine Gun
+V-1 Missile
+V-2 Missile
+V-94
+V?pensmia 
+VAHAN	
+VB Berapi
+VB Berapi LP06
+VBR
+VBR-Belgium
+VEB
+VHS
+VMG-27
+VSK-94
+VSS Vintorez	
+Valmet
+Valmet M76
+Valmet M82
+Valtion
+Valtion Kiv??ritehdas
+Valtro
+Vapensmia
+Varan
+Variable Choke
+Varmint Rifle
+Vektor
+Vektor CR-21
+Vektor R4
+Velocity
+Ventilated Choke
+Ventilated Rib
+Vepr
+Verdes
+Vernier Sight
+Vertical Dispersion
+Vickers 
+Vickers-Armstrongs
+Vickers-Berthier	
+Victory Arms
+Vigilance
+Vigneron 
+Viking SMG
+Voere
+Volcanic Repeating 
+Volksmaschinengewehr	
+Volkspistole	
+Volkssturmgewehr	
+Volkswaffen
+Vulcan Automatic Cannon
+Vulcan M-11-9
+WIST-94
+WIST-94L
+WKW Tor
+Wachos
+Wad
+Wad Column
+Wad Cutter
+Wad Pressure
+Wadcutter
+Wadcutter Bullet
+Waffenfabrik Bern
+Waiting Period
+Walking Barrel
+Walther
+Walther PPK
+Wanzl Infantry 
+Warming Shots
+Water Table
+Wax Bullet
+Weapon
+Web
+Webley
+Weibel
+Weihrauch
+Welrod
+Whelen Stock
+Whitney Wolverine
+Wieger 
+Wieger StG-940
+Wildcat Cartridge
+Wildey
+Williams
+Wimmersperg Spz
+Winchester
+Winchester Magnum 
+Wind Drift
+Windage Adjustment
+Windage Knob
+Windage Micrometer
+Wing Safety
+Witness Mark
+Wrist
+Wundhammer Bulge
+Wundhammer Swell
+Wyatt Earp 
+X-Ring
+XC220
+XC450
+XC900
+XL17
+XM
+XM174
+XM207E1	
+XM207E2
+XM214
+XM22
+XM22E1	
+XM23	
+XM24
+XM556 
+XM8
+XT-97
+Yavuz 16
+Yaw
+Yesaul
+Yoke
+Yurchenko 
+Z-M Weapons LR 300
+ZB-47	
+ZB-50
+ZB-530	
+ZH-29	
+ZPU-4	
+Zagi M-91
+Zaklady
+Zaklady 
+Zaragoza Corla	
+Zastava 
+Zastava M21
+Zastava M70
+Zastava M80
+Zastava M90
+Zbrojovka 
+Zero-In
+Zigana 
+Zittara	
+Zlatoust RB-12	
+Zonda C22
+Zorillos
+Zulfiqar
+ak-47
+bisquit 
+burner 
+dessert eeez 
+fo fo
+four four
+gauge
+heater
+kb ppanc Wz. 35
+mack
+mossy
+neena
+nine
+pipe
+sawed off shotgun
+sawwdi
+tekk
+toolie
+tray duece 
+tray eight
+wz.1928	

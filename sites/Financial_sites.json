@@ -1,0 +1,75 @@
+[
+    {
+        "site_name": "Venmo",
+        "surl": "https://account.venmo.com/u/{}",
+        "method": "GET",
+        "type": "string",
+        "key": "not found|may be broken|removed",
+        "onoff": "0"
+    },
+    {
+        "site_name": "Patreon",
+        "surl": "https://www.patreon.com/{}",
+        "method": "GET",
+        "type": "string",
+        "key": "HTTP/2 404",
+        "onoff": "0"
+    },
+    {
+        "site_name": "Etsy",
+        "surl": "https://www.etsy.com/shop/{}",
+        "method": "GET",
+        "type": "string",
+        "key": "HTTP/2 404",
+        "onoff": "0"
+    },
+    {
+        "site_name": "Cash.Me",
+        "surl": "https://cash.me/{}",
+        "method": "GET",
+        "type": "string",
+        "key": "HTTP/2 404",
+        "onoff": "0"
+    },
+    {
+        "site_name": "Ebay",
+        "surl": "https://www.ebay.com/usr/{}",
+        "method": "GET",
+        "type": "string",
+        "key": "HTTP/2 404|404 Not Found|eBay Profile - error",
+        "onoff": "0"
+    },
+    {
+        "site_name": "PayPal",
+        "surl": "https://www.paypal.me/{}",
+        "method": "GET",
+        "type": "string",
+        "key": "NOINDEX,NOFOLLOW,NOARCHIVE",
+        "onoff": "1"
+    },
+    {
+        "site_name": "BitcoinForum",
+        "surl": "https://bitcoinforum.com/profile/{}",
+        "method": "GET",
+        "type": "string",
+        "key": "error",
+        "onoff": "0"
+    },
+    {
+        "site_name": "Producthunt",
+        "surl": "https://www.producthunt.com/@{}",
+        "method": "GET",
+        "type": "string",
+        "key": "likes on Product Hunt",
+        "onoff": "1"
+    },
+    {
+        "site_name": "SEC.gov Database Search",
+        "surl": "https://www.sec.gov/cgi-bin/browse-edgar?company={}&owner=exclude&action=getcompany",
+        "method": "GET",
+        "type": "string",
+        "key": "HTTP/2 404|404|No matching companies",
+        "onoff": "0"
+    }
+]
+
