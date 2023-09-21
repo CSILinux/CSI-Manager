@@ -28,20 +28,23 @@ from PySide2.QtGui import QIcon, QPixmap, QFont
 from PySide2.QtWidgets import (
     QApplication, QDesktopWidget, QWidget, QMainWindow, QVBoxLayout, QHBoxLayout, 
     QPushButton, QStatusBar, QLabel, QTextEdit, QPlainTextEdit, QLineEdit, QInputDialog,
-     QScrollArea, QDialog, QTabWidget, QAction, QMenuBar, QMenu, QCompleter,
-      QDockWidget, QRadioButton, QCheckBox, QFormLayout,QMessageBox, QGridLayout, QFileDialog
+     QScrollArea, QDialog, QTabWidget, QAction, QMenuBar, QMenu, QCompleter, QTableView,
+      QDockWidget, QRadioButton, QCheckBox, QFormLayout,QMessageBox, QGridLayout, QFileDialog,
+      QStackedWidget
 )
 
 from csilibs.utils import pathme, auditme, get_current_timestamp, reportme
 from csilibs.config import create_case_folder
 from csilibs.assets import icons, ui
 from csilibs.gui import percentSize
-from csilibs.data import agencyData
+from csilibs.data import agencyData, apiKeys
 
 import qdarktheme
 
+from manageapis import Ui_MainWindow, TableModel, show_message_box, newAPIDialog
 
 
+enc_pass = ''
 #---------------------------------------------- MainWindow ------------------------------------------------#
 class CSIMainWindow(QMainWindow):
     """The main window class for the CSI application."""
@@ -641,6 +644,253 @@ class templateTab(sysFileEditTab):
         col = i % self.img_per_row
         self.img_grid.addLayout(self.img_blocks[i],row,col)
 
+class APIKeys(QWidget):
+    def __init__(self, main_window, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.main_window = main_window
+        self.main_layout = QVBoxLayout()
+        self.enc_pass = ''
+        self.changed_values = []  # to store the changes into the file
+        api_keys = {}
+        self.Heading = QLabel("CSI Linux API Manager")
+        self.Heading.setMaximumHeight(percentSize(main_window,0,5)[1])
+        font = QFont()
+        font.setFamily("Bahnschrift")
+        font.setPointSize(14)
+        self.Heading.setFont(font)
+        self.Heading.setLayoutDirection(Qt.LeftToRight)
+        self.Heading.setAlignment(Qt.AlignCenter)
+        self.main_layout.addWidget(self.Heading)
+
+        self.setLayout(self.main_layout)
+        
+        self.btns_layout  = QHBoxLayout()
+
+        self.exitBtn = QPushButton('EXIT')
+        self.exitBtn.setAutoDefault(False)
+        self.exitBtn.setObjectName("exitBtn")
+        self.exitBtn.clicked.connect(self.main_window.close)
+
+        self.saveBtn = QPushButton("SAVE")
+        self.saveBtn.setAutoDefault(False)
+        self.saveBtn.setObjectName("saveBtn")
+        self.saveBtn.clicked.connect(functools.partial(self.save_api_data,"Your API Keys saved successfully!"))
+
+        self.wipeBtn = QPushButton("WIPE DATA")
+        self.wipeBtn.setAutoDefault(False)
+        self.wipeBtn.setObjectName("wipeBtn")
+        self.wipeBtn.clicked.connect(self.wipe_data)
+
+        self.btns_layout.addWidget(self.wipeBtn)
+        self.btns_layout.addWidget(self.saveBtn)
+        self.btns_layout.addWidget(self.exitBtn)
+        
+        # Table View setup
+        self.APIData = QTableView()
+        self.APIData.setObjectName("APIData")
+        self.APIData.setMaximumHeight(percentSize(self.main_window,0,80)[1])
+
+    
+        self.main_layout.addWidget(self.Heading)
+    
+        is_enc_file, api_keys = apiKeys(self.enc_pass)
+
+        self.stacked_widget = QStackedWidget()
+
+        ## New password form
+        self.newpass_form_widget = QWidget()
+        self.newpass_form_layout = QVBoxLayout()
+
+        # Label and input field for the new password
+        self.label_new_password = QLabel("New Password:")
+        self.input_new_password = QLineEdit()
+        self.input_new_password.setEchoMode(QLineEdit.Password)  # Hide password input
+        self.newpass_form_layout.addWidget(self.label_new_password)
+        self.newpass_form_layout.addWidget(self.input_new_password)
+
+        # Label and input field for repeating the password
+        self.label_repeat_password = QLabel("Repeat Password:")
+        self.input_repeat_password = QLineEdit()
+        self.input_repeat_password.setEchoMode(QLineEdit.Password)  # Hide password input
+        self.newpass_form_layout.addWidget(self.label_repeat_password)
+        self.newpass_form_layout.addWidget(self.input_repeat_password)
+
+        # Button to submit the form
+        self.submit_button = QPushButton("Submit")
+        self.submit_button.clicked.connect(self.validate_passwords)
+        self.newpass_form_layout.addWidget(self.submit_button)
+        self.newpass_form_widget.setLayout(self.newpass_form_layout)
+        # self.main_layout.addLayout(self.newpass_form_layout)
+        
+        # Password to decrypt
+        self.pass_form_widget = QWidget()
+        self.pass_form_layout = QVBoxLayout()
+
+        self.label_password = QLabel("Enter Password to Decrypt API Keys file:")
+        self.input_password = QLineEdit()
+        self.input_password.setEchoMode(QLineEdit.Password)  # Hide password input
+        self.pass_form_layout.addWidget(self.label_password)
+        self.pass_form_layout.addWidget(self.input_password)
+
+        self.submit_button = QPushButton("Submit")
+        self.submit_button.clicked.connect(self.decrypt_apikeys)
+        self.pass_form_layout.addWidget(self.submit_button)
+        # self.main_layout.addLayout(self.pass_form_layout)
+        self.pass_form_widget.setLayout(self.pass_form_layout)
+
+
+        # API Keys table 
+        self.data_widget = None        
+        
+        if is_enc_file:
+            self.stacked_widget.addWidget(self.pass_form_widget)
+            self.stacked_widget.addWidget(self.newpass_form_widget)
+        else:
+            self.stacked_widget.addWidget(self.newpass_form_widget)
+            self.stacked_widget.addWidget(self.pass_form_widget)
+        # elif enc_pass == '':
+            
+        # else: 
+
+    
+        self.main_layout.addWidget(self.stacked_widget)
+        # self.main_layout.addLayout(self.btns_layout)
+
+        self.setLayout(self.main_layout)
+    
+    def decrypt_apikeys(self):
+        password = self.input_password.text()
+        
+        try:
+            apiKeys(password)
+            show_message_box("Success","Decrypted API Keys with Successfully.",QMessageBox.Information)
+            self.enc_pass = password
+            # self.__init__(self.main_window, password)
+            if self.data_widget is None:
+
+                self.data_widget = QWidget()
+                self.data_layout = QVBoxLayout()
+                is_enc_file, api_keys = apiKeys(password)
+                print('tester data', api_keys)
+                self.api_keys_list = [[key, value["key"],value["inTools"]] for key, value in api_keys.items()]
+
+                self.model = TableModel(self.api_keys_list)
+                self.APIData.setModel(self.model)
+                self.APIData.setColumnWidth(0,percentSize(self.main_window,20,0)[0])
+                self.APIData.setColumnWidth(1,percentSize(self.main_window,43,0)[0])
+                self.APIData.setColumnWidth(2,percentSize(self.main_window,25,0)[0])
+                self.APIData.horizontalHeader().setStretchLastSection(True)
+
+                self.model.dataChanged.connect(self.on_data_changed)  # Connect dataChanged signal to slot
+                self.data_layout.addWidget(self.APIData)
+                self.data_layout.addLayout(self.btns_layout)
+                self.data_widget.setLayout(self.data_layout)
+                self.stacked_widget.addWidget(self.data_widget)
+                
+                self.stacked_widget.setCurrentWidget(self.data_widget)
+                
+        except ValueError:
+            show_message_box("Error","Failed to Decrypt the API keys, Invalid Password",QMessageBox.Critical)
+            
+
+    def validate_passwords(self):
+        new_password = self.input_new_password.text()
+        repeat_password = self.input_repeat_password.text()
+
+        if new_password == repeat_password:
+            apiKeys(new_password)
+            show_message_box("Success","Encrypted API Keys with new Password",QMessageBox.Information)
+            print("Passwords match!")
+            # self.__init__(self.main_window)
+            self.stacked_widget.setCurrentWidget(self.pass_form_widget)
+            
+        else:
+            print("Passwords do not match. Please try again.")
+
+    def on_data_changed(self, top_left, bottom_right):
+        for row in range(top_left.row(), bottom_right.row() + 1):
+            for column in range(top_left.column(), bottom_right.column() + 1):
+                index = self.model.index(row, column)
+                value = self.model.data(index, Qt.DisplayRole)
+                self.changed_values.append((row, column, value))
+                print('test changes:',self.changed_values)
+
+    def save_api_data(self, text):
+        for i,j,keys in self.changed_values:
+            self.api_keys_list[i][j] = keys
+
+        update_api_keys = {item[0]: {"key":item[1],"inTools":item[2]} for item in self.api_keys_list}
+
+        apiKeys(self.enc_pass, update_api_keys)
+        
+        #-------- Adding API keys in supported tools ----------------
+        try:
+            for api in self.api_keys_list:
+                # api[0]=name, api[1]=key, api[2]=inTools
+
+                if 'Recon-NG' in api[2]:    
+                    subprocess.run(["sqlite3", "/home/csi/.recon-ng/keys.db", f'UPDATE keys SET Value = "{api[1]}" WHERE name="{api[0]}";'])
+                if 'hades' in api[0]:  
+                    subprocess.run(["sed", "-i", "s/atiikey=''/atiikey='$key'/g", "/opt/csitools/ProjectHades"])
+                if 'Spiderfoot' in api[2]:
+                    #improve it more
+                    search_term = api[0]    # e.g. shodan_api = [shodan,api]  to search into spiderfoot config
+                    # Using regex for finding the api name dynamically.
+                    subprocess.run(["sed", "-i", "-E", f"s/(^sfp.*{search_term[0]}.*{search_term[1]}.*=)(key value)?/\\1{api[1]}/", "/opt/csitools/SpiderFoot.cfg"])
+        
+        except Exception as e:
+            print("Got error during adding API data to supported tools!")
+            print(e)
+                
+        
+        show_message_box("Success",text)
+
+    def wipe_data(self):
+        result = show_message_box("Confirmation", "Do you want to proceed?", QMessageBox.Question, QMessageBox.Yes | QMessageBox.No)
+        if result == QMessageBox.Yes:
+            empty_api_keys = {item[0]: {"key":'',"inTools":item[2]} for item in self.api_keys_list}
+            
+            apiKeys(enc_pass, empty_api_keys)
+            
+            try:
+                # Wiping data from supported tools using bash commands for better readability
+                subprocess.run(["cp", "/opt/theHarvester/api-backup","/opt/theHarvester/api-keys.yaml"])
+                subprocess.run(["cp", "/opt/OSINT-Search/osintSearch.config.back", "/opt/OSINT-Search/osintSearch.config.ini"])
+                subprocess.run(["cp", "/opt/csitools/SpiderFoot.empty", "/opt/csitools/SpiderFoot.cfg"])
+                for api in self.api_keys_list:  # api[0], first entry is name
+                    if 'Recon-NG' in api[2]:
+                        subprocess.run(["sqlite3", "/home/csi/.recon-ng/keys.db", f'UPDATE keys SET Value = "" WHERE name="{api[0]}";'])
+            except Exception as e:
+                print("Got error during wiping API data from supported tools!")
+                print(e)
+
+            show_message_box("Success","Data Removed From APIKeys, Recon-NG, theHarvester, OSINT-Search and SpiderFoot Successfully!",QMessageBox.Information)
+
+            self.setupUi(self.main_window)
+        
+    
+    def add_APIentry(self):
+        dialog = newAPIDialog(self,"add")
+        dialog.exec_()
+        dialog.finished.connect(self.dialog_finished)
+    
+    def rm_APIentry(self):
+        dialog = newAPIDialog(self,"remove")
+        dialog.exec_()
+        dialog.finished.connect(self.dialog_finished)
+
+    def dialog_finished(self, result):
+        print("reached here")
+        self.__init__(self.main_window)
+    
+    def change_theme(self, mode):
+        if mode == 'dark':
+            os.environ['CSI_DARK'] = 'enable'
+            qdarktheme.setup_theme()
+        else:
+            os.environ['CSI_DARK'] = 'disable'
+            qdarktheme.setup_theme("light")
+
 class BaseCSIWidget(QWidget):
     def __init__(self, main_window, *args, **kwargs):
         super().__init__(*args, **kwargs)
@@ -671,7 +921,9 @@ if __name__ == "__main__":
     widget2 = sysFileEditTab(main_window, "Keyword Lists", pathme("keywordlists"), ui.PAGE, ['txt'])     
     widget3 = sysFileEditTab(main_window, "Sites Lists", pathme("sites"), ui.LAPTOP, ['json'])    
     widget4 = templateTab(main_window, "Report Templates", pathme("Templates"), ['docx','odt']) 
-    tabs = BaseCSITabs({"Agency Info":widget1, 'Keyword Lists':widget2, 'Sites List':widget3, 'Report Templates': widget4})
+    widget5 = APIKeys(main_window) 
+    
+    tabs = BaseCSITabs({"Agency Info":widget1, 'Keyword Lists':widget2, 'Sites List':widget3, 'Report Templates': widget4, 'API Keys': widget5})
     
     main_window.setCentralWidget(tabs)
     main_window.set_application(app)
