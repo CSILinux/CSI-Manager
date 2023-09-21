@@ -1,7 +1,7 @@
 import functools
-from PyQt5 import QtCore, QtGui, QtWidgets
-from PyQt5.QtWidgets import QApplication, QInputDialog, QDesktopWidget, QLineEdit, QMessageBox, QLabel, QVBoxLayout, QDialog, QPushButton, QHBoxLayout, QSpinBox, QCheckBox
-from PyQt5.QtCore import Qt
+from PySide2 import QtCore, QtGui, QtWidgets
+from PySide2.QtWidgets import QApplication, QInputDialog, QDesktopWidget, QLineEdit, QMessageBox, QLabel, QVBoxLayout, QDialog, QPushButton, QHBoxLayout, QSpinBox, QCheckBox
+from PySide2.QtCore import Qt
 import json, sys
 import os, subprocess
 
@@ -11,12 +11,14 @@ from cryptography.fernet import Fernet, InvalidToken
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 
-from sharedfunctions import encrypt, decrypt, genKey, api_json_path, api_enc_path, pathMe
+from csilibs.auth import encrypt, decrypt, gen_key
+from csilibs.utils import pathme
+from csilibs.data import  apiKeys
 import qdarktheme
 
 # Global var and function ###########
-enc_key=''
-title_icon=pathMe("assets/icons/csi_black.ico")
+enc_pass=''
+title_icon=pathme("assets/icons/csi_black.ico")
 # You can add new tools_support and write their implementation in the Ui_MainWindow.save_api_data &  Ui_MainWindow.wipe_data 
 tools_support=["OSINT-Search", "Recon-NG", "Spiderfoot", "theHarvester", "CSI UserSearch"]
 
@@ -222,11 +224,7 @@ class Ui_MainWindow(object):
         self.APIData.setObjectName("APIData")
         self.APIData.setMaximumHeight(percentSize(MainWindow,0,80)[1])
 
-        
-        decrypt(enc_key)
-        with open(api_json_path,"r") as api_file:
-            api_keys = json.load(api_file)
-        encrypt(enc_key)
+        _, api_keys = apiKeys(enc_pass)
 
         self.api_keys_list = [[key, value["key"],value["inTools"]] for key, value in api_keys.items()]
 
@@ -331,10 +329,8 @@ class Ui_MainWindow(object):
             self.api_keys_list[i][j] = keys
 
         update_api_keys = {item[0]: {"key":item[1],"inTools":item[2]} for item in self.api_keys_list}
-        decrypt(enc_key)
-        with open(api_json_path,"w") as api_file:
-            json.dump(update_api_keys,api_file)
-        encrypt(enc_key)
+
+        apiKeys(enc_pass, update_api_keys)
         
         #-------- Adding API keys in supported tools ----------------
         try:
@@ -362,10 +358,9 @@ class Ui_MainWindow(object):
         result = show_message_box("Confirmation", "Do you want to proceed?", QMessageBox.Question, QMessageBox.Yes | QMessageBox.No)
         if result == QMessageBox.Yes:
             empty_api_keys = {item[0]: {"key":'',"inTools":item[2]} for item in self.api_keys_list}
-            decrypt(enc_key)
-            with open(api_json_path,"w") as api_file:
-                json.dump(empty_api_keys,api_file)
-            encrypt(enc_key)
+            
+            apiKeys(enc_pass, empty_api_keys)
+            
             try:
                 # Wiping data from supported tools using bash commands for better readability
                 subprocess.run(["cp", "/opt/theHarvester/api-backup","/opt/theHarvester/api-keys.yaml"])
@@ -424,16 +419,17 @@ if __name__ == "__main__":
     MainWindow.setWindowIcon(QtGui.QIcon(title_icon))
     Ui_MainWindow.center(window=MainWindow)
 
+    is_enc_file_avaiable, _ = apiKeys()
     # Creating encrypted APIKeys by setting up new password
-    if os.path.isfile(api_json_path):
+    if not is_enc_file_avaiable:
         new_password, ok = QInputDialog.getText(MainWindow, "Set New Password", "Enter a New Password:", QLineEdit.Password)
         if ok:
             confirm_password, ok = QInputDialog.getText(MainWindow, "Set New Password", "ReEnter the Password:", QLineEdit.Password)
             if ok:
                 if new_password != '' and new_password == confirm_password :
-                    encrypt(genKey(new_password))
+                    apiKeys(new_password)
                     show_message_box("Success","Password Set Successfully!",QMessageBox.Information)
-                    enc_key=genKey(new_password)
+                    enc_pass=new_password
                 else:
                     msg_box = QMessageBox()
                     show_message_box("Error","Password Confirmation Failed!",QMessageBox.Warning)
@@ -446,13 +442,12 @@ if __name__ == "__main__":
     else:
         decrypt_password, ok = QInputDialog.getText(MainWindow, "Password to Decrypt", "Enter Password to decrypt the API Keys File:", QLineEdit.Password)
         if ok:
-            if decrypt(genKey(decrypt_password)):
-                # No need to show success message if password is correct just open directly
-                # show_message_box("Success","Decrypted APIKeys file Successfully!",QMessageBox.Information)
-                # Encrypt the file immediately after using the decrypted content to avoid any loopholes.
-                encrypt(genKey(decrypt_password))
-                enc_key=genKey(decrypt_password)
-            else:
+            try:
+                # to check if password is correct
+                apiKeys(decrypt_password)
+                
+                enc_pass=decrypt_password
+            except ValueError:
                 show_message_box("Error","Failed to Decrypt With this Password!",QMessageBox.Warning)
                 exit()
             
