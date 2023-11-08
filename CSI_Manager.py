@@ -37,7 +37,7 @@ from csilibs.utils import pathme, auditme, get_current_timestamp, reportme
 from csilibs.config import create_case_folder
 from csilibs.assets import icons, ui
 from csilibs.gui import percentSize
-from csilibs.data import agencyData, apiKeys
+from csilibs.data import agencyData, apiKeys, Templates, KeywordLists
 
 import qdarktheme
 
@@ -278,7 +278,7 @@ class sysFileEditTab(QWidget):
             self.del_mode = False
         
         for img in self.img_btns:
-            img.setStatusTip("Click to Open the File" if not self.del_btn.isChecked() else "Click to Delete the File")
+            img.setStatusTip("Double Click to Open the File" if not self.del_btn.isChecked() else "Click to Delete the File")
 
     def createFile(self):
         while True:
@@ -364,7 +364,7 @@ class sysFileEditTab(QWidget):
         img.setObjectName(self.img_labels[i].text())
         icon_width = percentSize(main_window,10,0)[0]
         img.setIconSize(QSize(icon_width, icon_width))
-        img.setStatusTip("Click to Open the File")
+        img.setStatusTip("Double Click to Open the File")
         img.setFlat(True)
 
         self.img_blocks[i].addWidget(img)
@@ -628,7 +628,7 @@ class templateTab(sysFileEditTab):
         img.setObjectName(file_name)
         icon_width = percentSize(main_window,10,0)[0]
         img.setIconSize(QSize(icon_width, icon_width))
-        img.setStatusTip("Click to Open the File")
+        img.setStatusTip("Double Click to Open the File")
         img.setFlat(True)
 
         self.img_blocks[i].addWidget(img)
@@ -918,12 +918,15 @@ if __name__ == "__main__":
     main_window = CSIMainWindow()
 
     widget1 = AgencyInfoTab(main_window)
-    widget2 = sysFileEditTab(main_window, "Keyword Lists", pathme("keywordlists"), ui.PAGE, ['txt'])     
-    widget3 = sysFileEditTab(main_window, "Sites Lists", pathme("sites"), ui.LAPTOP, ['json'])    
-    widget4 = templateTab(main_window, "Report Templates", pathme("Templates"), ['docx','odt']) 
+    widget2 = sysFileEditTab(main_window, "Keyword Lists", KeywordLists.dir_path, ui.PAGE, ['txt'])     
+    
+    # Siteslists, conveted into sqlitedb
+    # widget3 = sysFileEditTab(main_window, "Sites Lists", pathme("sites"), ui.LAPTOP, ['json'])    
+    
+    widget4 = templateTab(main_window, "Report Templates", Templates.dir_path , ['docx','odt']) 
     widget5 = APIKeys(main_window) 
     
-    tabs = BaseCSITabs({"Agency Info":widget1, 'Keyword Lists':widget2, 'Sites List':widget3, 'Report Templates': widget4, 'API Keys': widget5})
+    tabs = BaseCSITabs({"Agency Info":widget1, 'Keyword Lists':widget2, 'Report Templates': widget4, 'API Keys': widget5})
     
     main_window.setCentralWidget(tabs)
     main_window.set_application(app)
