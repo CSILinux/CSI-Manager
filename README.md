@@ -6,8 +6,6 @@ Install csilibs python package
 pip install git+https://github.com/CSILinux/CSI-Libs.git
 ```
 
-Certainly, let's incorporate that into the README:
-
 ## Features
 Effortlessly manage the following:
 - Agency information
