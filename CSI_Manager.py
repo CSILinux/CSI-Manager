@@ -148,7 +148,6 @@ class AgencyInfoTab(QWidget):
         super().__init__(*args, **kwargs)
         self.main_window = main_window
         self.main_layout = QVBoxLayout()
-        print("this is agency tab mainwindow",dir(self.main_window))
         self.Heading = QLabel("Agency Info")
         self.Heading.setMaximumHeight(percentSize(self.main_window,0,5)[1])
         font = QFont()
