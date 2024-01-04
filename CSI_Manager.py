@@ -772,7 +772,6 @@ class APIKeys(QWidget):
                 self.data_widget = QWidget()
                 self.data_layout = QVBoxLayout()
                 is_enc_file, api_keys = apiKeys(password)
-                print('tester data', api_keys)
                 self.api_keys_list = [[key, value["key"],value["inTools"]] for key, value in api_keys.items()]
 
                 self.model = TableModel(self.api_keys_list)
