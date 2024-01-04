@@ -1,7 +1,9 @@
 import functools
-from PySide2 import QtCore, QtGui, QtWidgets
-from PySide2.QtWidgets import QApplication, QInputDialog, QDesktopWidget, QLineEdit, QMessageBox, QLabel, QVBoxLayout, QDialog, QPushButton, QHBoxLayout, QSpinBox, QCheckBox
-from PySide2.QtCore import Qt
+from PySide6 import QtCore, QtGui, QtWidgets
+from PySide6.QtWidgets import QApplication, QInputDialog, QLineEdit, QMessageBox, QLabel, QVBoxLayout, QDialog, QPushButton, QHBoxLayout, QSpinBox, QCheckBox
+from PySide6.QtCore import Qt
+from PySide6.QtGui import QGuiApplication
+
 import json, sys
 import os, subprocess
 
@@ -14,6 +16,7 @@ from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 from csilibs.auth import encrypt, decrypt, gen_key
 from csilibs.utils import pathme
 from csilibs.data import  apiKeys
+from csilibs.gui import percentSize
 import qdarktheme
 
 # Global var and function ###########
@@ -34,16 +37,6 @@ def show_message_box(title, message, icon=QMessageBox.Information, buttons=QMess
     result = msg_box.exec_()
     return result
     
-#---------------------------- For Relative Sizing(REQUIRED) -------------------------------#
-def percentSize(object, width_percentage=100, height_percentage=100):
-    # use 'app' to get desktop relative sizing, for others pass the object not string 
-    if type(object) == str and  object.lower().endswith('app'):
-        desktop_size = QApplication.desktop().availableGeometry()
-        object = desktop_size
-
-    width = int(object.width() * (width_percentage/100))
-    height = int(object.height() * (height_percentage/100))
-    return (width, height)
 
 ###################################### 
 # Setting up Table with API Data
@@ -174,7 +167,7 @@ class Ui_MainWindow(object):
         MainWindow.setObjectName("MainWindow")
         MainWindow.setWindowIcon(QtGui.QIcon(title_icon))
 
-        MainWindow.setGeometry(0,0,*percentSize('app',44,90))    
+        MainWindow.setGeometry(0,0,*percentSize(app,44,90))    
         self.center(MainWindow)        
         
         MainWindow.resizeEvent = lambda event: self.adjust_size(MainWindow)
@@ -258,16 +251,16 @@ class Ui_MainWindow(object):
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
         self.statusbar.setObjectName("statusbar")
         MainWindow.setStatusBar(self.statusbar)
-        self.actionAdd_New_Entry = QtWidgets.QAction(MainWindow)
+        self.actionAdd_New_Entry = QtGui.QAction(MainWindow)
         self.actionAdd_New_Entry.setObjectName("actionAdd_New_Entry")
-        self.actionRemove_Entry = QtWidgets.QAction(MainWindow)
+        self.actionRemove_Entry = QtGui.QAction(MainWindow)
         self.actionRemove_Entry.setObjectName("actionRemove_Entry")
         self.menuEdit_API_Data.addAction(self.actionAdd_New_Entry)
         self.menuEdit_API_Data.addAction(self.actionRemove_Entry)
 
-        self.actionDark_Theme = QtWidgets.QAction(MainWindow)
+        self.actionDark_Theme = QtGui.QAction(MainWindow)
         self.actionDark_Theme.setObjectName("actionDark_Theme")
-        self.actionLight_Theme = QtWidgets.QAction(MainWindow)
+        self.actionLight_Theme = QtGui.QAction(MainWindow)
         self.actionLight_Theme.setObjectName("actionLight_Theme")
         self.menuThemes.addAction(self.actionDark_Theme)
         self.menuThemes.addAction(self.actionLight_Theme)
@@ -402,12 +395,12 @@ class Ui_MainWindow(object):
     @staticmethod
     def center(window):
         qRect = window.frameGeometry()
-        center_point = QDesktopWidget().availableGeometry().center()
+        center_point = QGuiApplication.primaryScreen().availableGeometry().center()
         qRect.moveCenter(center_point)
         window.move(qRect.topLeft())
 
 if __name__ == "__main__":
-    
+    global app
     app = QtWidgets.QApplication(sys.argv)
     if os.environ.get("CSI_DARK") == 'enable':
         qdarktheme.setup_theme()

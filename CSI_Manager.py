@@ -23,12 +23,12 @@ import json
 import logging
 import functools, subprocess
 import tempfile, zipfile, re
-from PySide2.QtCore import QThread, Signal, QUrl, Qt, QSize, QRect, QMetaObject, QCoreApplication, QEvent
-from PySide2.QtGui import QIcon, QPixmap, QFont
-from PySide2.QtWidgets import (
-    QApplication, QDesktopWidget, QWidget, QMainWindow, QVBoxLayout, QHBoxLayout, 
+from PySide6.QtCore import QThread, Signal, QUrl, Qt, QSize, QRect, QMetaObject, QCoreApplication, QEvent
+from PySide6.QtGui import QIcon, QPixmap, QFont, QGuiApplication,QAction
+from PySide6.QtWidgets import (
+    QApplication, QWidget, QMainWindow, QVBoxLayout, QHBoxLayout, 
     QPushButton, QStatusBar, QLabel, QTextEdit, QPlainTextEdit, QLineEdit, QInputDialog,
-     QScrollArea, QDialog, QTabWidget, QAction, QMenuBar, QMenu, QCompleter, QTableView,
+     QScrollArea, QDialog, QTabWidget, QMenuBar, QMenu, QCompleter, QTableView,
       QDockWidget, QRadioButton, QCheckBox, QFormLayout,QMessageBox, QGridLayout, QFileDialog,
       QStackedWidget
 )
@@ -56,13 +56,10 @@ class CSIMainWindow(QMainWindow):
         self.status_bar = QStatusBar()
         self.setStatusBar(self.status_bar)
         self.application = None
-        self.setGeometry(0,0, *percentSize("app",70,90))
         # self.setFixedSize(*percentSize("app",70,90))
-        self.center()
 
         #-------------------------- MENU BAR --------------------------#
         self.menubar = QMenuBar(self)
-        self.menubar.setGeometry(QRect(0, 0, *percentSize("app",95,10)))
         self.menubar.setObjectName("menubar")
         self.setMenuBar(self.menubar)
         
@@ -110,13 +107,18 @@ class CSIMainWindow(QMainWindow):
 
     def center(self):
         qRect = self.frameGeometry()
-        center_point = QDesktopWidget().availableGeometry().center()
+        center_point = QGuiApplication.primaryScreen().availableGeometry().center()
         qRect.moveCenter(center_point)
         self.move(qRect.topLeft())
 
     def set_application(self, application):
         """Set the application instance."""
         self.application = application
+        # set size
+        self.setGeometry(0,0, *percentSize(self.application,70,90))
+        self.menubar.setGeometry(QRect(0, 0, *percentSize(self.application,95,10)))
+        self.center()
+        
 
     def update_status(self, message):
         """Update the status bar with the given message."""
@@ -146,7 +148,7 @@ class AgencyInfoTab(QWidget):
         super().__init__(*args, **kwargs)
         self.main_window = main_window
         self.main_layout = QVBoxLayout()
-
+        print("this is agency tab mainwindow",dir(self.main_window))
         self.Heading = QLabel("Agency Info")
         self.Heading.setMaximumHeight(percentSize(self.main_window,0,5)[1])
         font = QFont()
@@ -912,8 +914,6 @@ class BaseCSIWidget(QWidget):
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    qdarktheme.setup_theme()
-
     # Create the main window
     main_window = CSIMainWindow()
 
@@ -931,7 +931,9 @@ if __name__ == "__main__":
     main_window.setCentralWidget(tabs)
     main_window.set_application(app)
     
+    qdarktheme.setup_theme()
+    
     # Show the main window
     main_window.show()
-    # Start the application event loop
+    # Start the applicaStion event loop
     sys.exit(app.exec_())
